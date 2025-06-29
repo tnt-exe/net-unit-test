@@ -1,8 +1,9 @@
-﻿using FluentAssertions;
+﻿using AwesomeAssertions;
 using WebApi;
 using WebApi.Controllers;
 
 namespace TestProject.ControllerTest;
+
 public class WeatherForecastControllerTest
 {
     [Fact]

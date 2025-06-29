@@ -1,4 +1,4 @@
-﻿using FluentAssertions;
+﻿using AwesomeAssertions;
 using Moq;
 using TestProject.Faker;
 using WebApi.Models;
@@ -6,6 +6,7 @@ using WebApi.Repositories.Interfaces;
 using WebApi.Services;
 
 namespace TestProject.ServiceTest;
+
 public class ProductServiceTest
 {
     private readonly Mock<IProductRepository> _mockRepo;

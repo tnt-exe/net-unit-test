@@ -1,4 +1,4 @@
-﻿using FluentAssertions;
+﻿using AwesomeAssertions;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
 using TestProject.Faker;
@@ -7,6 +7,7 @@ using WebApi.Models;
 using WebApi.Services.Interfaces;
 
 namespace TestProject.ControllerTest;
+
 public class ProductControllerTest
 {
     private readonly Mock<IProductService> _mockService;
